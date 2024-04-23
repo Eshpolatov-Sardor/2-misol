@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1280px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.header_div{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.main{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+.main_img_span{
+    background-color: black;
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    width: 200px;
+    justify-content: space-evenly;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 200px;
+}
+.main__span{
+    background-image: url(./image/photo_2024-04-23_17-51-17.jpg);
+    background-repeat: no-repeat;
+    background-position: 85px 60px;
+    /* background-color: black; */
+    background-size: 95%;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
